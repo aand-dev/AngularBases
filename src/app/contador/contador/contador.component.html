@@ -1,0 +1,10 @@
+<h1>{{ title }}</h1>
+
+<!-- Los eventos se definen en paréntesis -->
+<!-- En los templates los atributos de AppComponentent se reconocen, por lo que no es necesario el this -->
+
+<h3>La base es: <strong> {{base}} </strong></h3>
+
+<button (click)=" acumular(-base); "> -5 </button>
+<span> {{ numero }} </span>
+<button (click)=" acumular(base); "> +5 </button>
